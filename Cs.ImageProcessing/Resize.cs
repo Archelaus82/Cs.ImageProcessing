@@ -8,7 +8,7 @@ namespace Cs.ImageProcessing
 {
     public class Resize
     {
-        private static void ResizeAlgorithm(out int newWidth, out int newHeight, out int posX, out int posY,
+        public static void ResizeAlgorithm(out int newWidth, out int newHeight, out int posX, out int posY,
             int width, int height, int imageWidth, int imageHeight)
         {
             double ratioX = (double)width / (double)imageWidth;
